@@ -3,7 +3,7 @@ module Lab_03(
     input logic a, b, c
 );
 
-logic not_out, or_out, nand_out, or_out2, xor_out;
+logic not_out, or_out, nand_out, xor_out;
 assign not_out = ~c;
 assign or_out = a | b;
 assign x = (not_out) ^ (or_out);
